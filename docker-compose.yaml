@@ -1,0 +1,9 @@
+services:
+  server:
+    build: 
+      context: .
+      dockerfile: .Dockerfile
+    volumes:
+      - ./screenshots:/app/screenshots
+    ports:
+      - 3001:3000
