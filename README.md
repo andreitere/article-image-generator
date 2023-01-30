@@ -59,7 +59,7 @@ All the generated files are `jpg`.
 To retrieve the image simply execute a GET request to 
 
 ```
-http://localhost:3000/screens/${file}/
+http://localhost:3000/screens/${file}
 ```
 
 eg: http://localhost:3000/screens/filename.jpg
