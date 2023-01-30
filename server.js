@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import puppeteer from "puppeteer";
-const APP_PORT = process.env.APP_PORT;
+const APP_PORT = process.env.APP_PORT || 3000;
 const fastify = Fastify({});
 import fastifyStatic from "@fastify/static";
 import path from "path";
